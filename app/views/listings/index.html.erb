@@ -1,0 +1,7 @@
+Listings
+<%= <%= link_to  "Sell instrument", new_listing_path %>%>
+<ul>
+<%for listing in @listings%>
+    <li><%=lising.title%><%=lising.price%></li>
+    <%end%>
+</ul>
